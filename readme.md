@@ -31,17 +31,6 @@ Rosé Pine Dawn:
 
 - [JTrenerry](https://github.com/JTrenerry)
 
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
-
 <!-- #rose-pine-build -->
 
 ```sh
