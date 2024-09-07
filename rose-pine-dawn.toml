@@ -13,7 +13,7 @@ Pictures = " "
 
 [fill]
 style = "fg:#f2e9e1"
-symbol = " 󰧱  󰉊 "
+symbol = " "
 
 [git_branch]
 format = "[](fg:#f2e9e1)[ $symbol $branch ]($style)[](fg:#f2e9e1)"
