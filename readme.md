@@ -13,9 +13,7 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+Change your ```~/.config/starship.toml``` to one of the options above (make sure it is named ```starship.toml``` and not ```rose-pine.toml```)
 
 ## Gallery
 Rosé Pine:  
