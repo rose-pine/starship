@@ -1,0 +1,35 @@
+format = "$username $directory $git_branch$fill $time\n  [󱞪](fg:#907aa9) "
+[directory]
+format = "[](fg:#f2e9e1)[ $path ]($style)[](fg:#f2e9e1)"
+style = "bg:#f2e9e1 fg:#286983"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+Documents = "󰈙"
+Downloads = " "
+Music = " "
+Pictures = " "
+
+[fill]
+style = "fg:#f2e9e1"
+symbol = " 󰧱  󰉊 "
+
+[git_branch]
+format = "[](fg:#f2e9e1)[ $symbol $branch ]($style)[](fg:#f2e9e1)"
+style = "bg:#f2e9e1 fg:#56949f"
+symbol = ""
+
+[time]
+disabled = false
+format = "[](fg:#f2e9e1)[ $time 󰴈 ]($style)[](fg:#f2e9e1)"
+style = "bg:#f2e9e1 fg:#d7827e"
+time_format = "%I:%M%P"
+use_12hr = true
+
+[username]
+disabled = false
+format = "[](fg:#f2e9e1)[ 󰧱 $user ]($style)[](fg:#f2e9e1)"
+show_always = true
+style_root = "bg:#f2e9e1 fg:#907aa9"
+style_user = "bg:#f2e9e1 fg:#907aa9"
