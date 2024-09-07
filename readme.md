@@ -13,27 +13,22 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+Change your ```~/.config/starship.toml``` to one of the options above (make sure it is named ```starship.toml``` and not ```rose-pine.toml```)
 
 ## Gallery
+Rosé Pine:  
+![image](https://github.com/user-attachments/assets/048ab606-91cf-4c65-a08e-15a490884348)
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+Rosé Pine Moon:  
+![image](https://github.com/user-attachments/assets/6b6b63b6-4bda-4629-a59e-6ea3f08420a4)
+
+Rosé Pine Dawn:  
+![image](https://github.com/user-attachments/assets/ff79483d-d0b2-460a-aa37-a48007c9f4be)
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
+- [JTrenerry](https://github.com/JTrenerry)
 
 ## Style guide
 
