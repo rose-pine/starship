@@ -17,14 +17,17 @@ Change your ```~/.config/starship.toml``` to one of the options above (make sure
 
 ## Gallery
 Rosé Pine:  
-![image](https://github.com/user-attachments/assets/048ab606-91cf-4c65-a08e-15a490884348)
+![image](https://github.com/user-attachments/assets/6814f68e-bc4c-468d-8353-1a86f63ed903)
+
 
 Rosé Pine Moon:  
-![image](https://github.com/user-attachments/assets/3b7b3969-f6b7-4b55-b7f0-4632782dea19)
+![image](https://github.com/user-attachments/assets/6190440e-3384-4a28-9d05-d61f5aa7b7e0)
+
 
 
 Rosé Pine Dawn:  
-![image](https://github.com/user-attachments/assets/ff79483d-d0b2-460a-aa37-a48007c9f4be)
+![image](https://github.com/user-attachments/assets/c1eb1b79-48c3-4021-ba5d-7d16e8d6e609)
+
 
 
 ## Thanks to
