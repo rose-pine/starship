@@ -16,16 +16,16 @@
 Change your ```~/.config/starship.toml``` to one of the options above (make sure it is named ```starship.toml``` and not ```rose-pine.toml```)
 
 ## Gallery
-Rosé Pine:  
+**Rosé Pine**  
 ![image](https://github.com/user-attachments/assets/6814f68e-bc4c-468d-8353-1a86f63ed903)
 
 
-Rosé Pine Moon:  
+**Rosé Pine Moom**  
 ![image](https://github.com/user-attachments/assets/6190440e-3384-4a28-9d05-d61f5aa7b7e0)
 
 
 
-Rosé Pine Dawn:  
+**Rosé Pine Dawn**  
 ![image](https://github.com/user-attachments/assets/c1eb1b79-48c3-4021-ba5d-7d16e8d6e609)
 
 
