@@ -18,12 +18,19 @@
 3. Select `Rosé Pine` from the themes dropdown
 
 ## Gallery
+Rosé Pine:  
+![image](https://github.com/user-attachments/assets/048ab606-91cf-4c65-a08e-15a490884348)
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+Rosé Pine Moon:  
+![image](https://github.com/user-attachments/assets/6b6b63b6-4bda-4629-a59e-6ea3f08420a4)
+
+Rosé Pine Dawn:  
+![image](https://github.com/user-attachments/assets/ff79483d-d0b2-460a-aa37-a48007c9f4be)
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [JTrenerry](https://github.com/JTrenerry)
 
 ## Contributing
 
