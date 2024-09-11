@@ -20,7 +20,7 @@ Change your ```~/.config/starship.toml``` to one of the options above (make sure
 ![image](https://github.com/user-attachments/assets/6814f68e-bc4c-468d-8353-1a86f63ed903)
 
 
-**Rosé Pine Moom**  
+**Rosé Pine Moon**
 ![image](https://github.com/user-attachments/assets/6190440e-3384-4a28-9d05-d61f5aa7b7e0)
 
 
@@ -33,3 +33,4 @@ Change your ```~/.config/starship.toml``` to one of the options above (make sure
 ## Thanks to
 
 - [JTrenerry](https://github.com/JTrenerry)
+- [gamek0i](https://github.com/gamek0i)
