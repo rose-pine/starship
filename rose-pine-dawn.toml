@@ -10,8 +10,14 @@ pine = '#286983'
 foam = '#56949f'
 iris = '#907aa9'
 
+[custom.border_start]
+format = "[](fg:overlay)"
+
+[custom.border_end]
+format = "[](fg:overlay)"
+
 [directory]
-format = "[](fg:overlay)[ $path ]($style)[](fg:overlay)"
+format = "${custom.border_start}[ $path ]($style)${custom.border_end}"
 style = "bg:overlay fg:pine"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -27,20 +33,25 @@ style = "fg:overlay"
 symbol = " "
 
 [git_branch]
-format = "[](fg:overlay)[ $symbol $branch ]($style)[](fg:overlay)"
-style = "bg:overlay fg:pine"
+format = "${custom.border_start}[ $symbol $branch ]($style)${custom.border_end}"
+style = "bg:overlay fg:foam"
 symbol = ""
+
+[git_status]
+style = "bg:overlay fg:love"
+format = '${custom.border_start}[$all_status$ahead_behind]($style)${custom.border_end}'
+#disabled = true
 
 [time]
 disabled = false
-format = "[](fg:overlay)[ $time 󰴈 ]($style)[](fg:overlay)"
+format = "${custom.border_start}[ $time 󰴈 ]($style)${custom.border_end}"
 style = "bg:overlay fg:rose"
 time_format = "%I:%M%P"
 use_12hr = true
 
 [username]
 disabled = false
-format = "[](fg:overlay)[ 󰧱 $user ]($style)[](fg:overlay)"
+format = "${custom.border_start}[ 󰧱 $user ]($style)${custom.border_end}"
 show_always = true
 style_root = "bg:overlay fg:iris"
 style_user = "bg:overlay fg:iris"
