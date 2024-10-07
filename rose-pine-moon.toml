@@ -6,6 +6,18 @@ $git_status \
 
 $fill \
 
+$c \
+$elixir \
+$elm \
+$golang \
+$haskell \
+$java \
+$julia \
+$nodejs \
+$nim \
+$rust \
+$scala \
+$python\n  \
 
 $time\n  \
 [󱞪](fg:iris)
