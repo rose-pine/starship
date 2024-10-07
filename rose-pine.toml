@@ -3,9 +3,7 @@ $username \
 $directory \
 $git_branch \
 $git_status \
-
 $fill \
-
 $c \
 $elixir \
 $elm \
@@ -18,7 +16,6 @@ $nim \
 $rust \
 $scala \
 $python\n  \
-
 $time\n  \
 [󱞪](fg:iris)
 """
