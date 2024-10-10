@@ -16,7 +16,7 @@ $nim \
 $rust \
 $scala \
 $python\n  \
-:wq$time\n  \
+$time\n  \
 [󱞪](fg:iris)
 """
 
