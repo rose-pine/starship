@@ -15,7 +15,7 @@ $nodejs \
 $nim \
 $rust \
 $scala \
-$python\n  \
+$python \
 $time\n  \
 [󱞪](fg:iris)
 """
