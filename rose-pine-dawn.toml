@@ -18,7 +18,7 @@ $scala \
 $conda \
 $python \
 $time\n  \
-[󱞪](fg:iris)
+[󱞪](fg:iris)\
 """
 
 palette = "rose-pine-dawn"
@@ -54,7 +54,7 @@ style = "bg:overlay fg:pine"
 symbol = ""
 
 [git_status]
-disabled = true
+disabled = false
 style = "bg:overlay fg:love"
 format = '[](fg:overlay)([$all_status$ahead_behind]($style))[](fg:overlay)'
 up_to_date = '[ ✓ ](bg:overlay fg:iris)'
