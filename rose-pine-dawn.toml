@@ -18,7 +18,7 @@ $scala \
 $conda \
 $python \
 $time\n  \
-[󱞪](fg:iris)\
+[󱞪](fg:iris) \
 """
 
 palette = "rose-pine-dawn"
