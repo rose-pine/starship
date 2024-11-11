@@ -15,6 +15,7 @@ $nodejs \
 $nim \
 $rust \
 $scala \
+$conda \
 $python \
 $time\n  \
 [󱞪](fg:iris)
@@ -154,3 +155,9 @@ style = "bg:overlay fg:pine"
 format = "[](fg:overlay)[$symbol$version]($style)[](fg:overlay) "
 disabled = false
 symbol = ' '
+
+[conda]
+style = "bg:overlay fg:pine"
+format = "[](fg:overlay)[$symbol$environment]($style)[](fg:overlay) "
+disabled = false
+symbol = '🅒 '
