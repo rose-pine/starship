@@ -142,7 +142,7 @@ symbol = "󰆥 "
 style = "bg:overlay fg:pine"
 format = "[](fg:overlay)[$symbol$version]($style)[](fg:overlay) "
 disabled = false
-symbol = ""
+symbol = " "
 
 [scala]
 style = "bg:overlay fg:pine"
