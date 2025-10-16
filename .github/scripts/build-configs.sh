@@ -27,7 +27,7 @@ while read -r cfg; do
   if [ -z "$name" ] || [ "$name" = "null" ]; then
     echo "⚠️ Skipping invalid config: $cfg" >&2
     continue
-  fi
+  # fi
 
   output="$OUT_DIR/$name"
   rm -rf "$output"
@@ -69,11 +69,12 @@ while read -r cfg; do
     outputp="$output/$pal.toml"
     : > "$outputp"
 
+    format_line=$(printf "%s\\\n" "${format_parts[@]}")
     cat > "$outputp" <<EOF
 "\$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-$(printf "%s\\\n" "${format_parts[@]}")
+$(format_line)
 """
 EOF
 
