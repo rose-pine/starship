@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-$username\n$directory\n$git_branch\n$fill\n$c\n$elixir\n$elm\n$golang\n$haskell\n$java\n$julia\n$nodejs\n$nim\n$rust\n$scala\n$python\n$time\n\n\n
+$username\n$directory\n$git_branch\n$git_status\n$fill\n$c\n$elixir\n$elm\n$golang\n$haskell\n$java\n$julia\n$nodejs\n$nim\n$rust\n$scala\n$python\n$time\n\n\n[󱞪](fg:iris) \\n
 """
 palette = "rose-pine-dawn"
 
@@ -37,6 +37,10 @@ Pictures = " "
 format = "[](fg:overlay)[ $symbol $branch ]($style)[](fg:overlay)"
 style = "bg:overlay fg:foam"
 symbol = ""
+
+[git_status]
+style = "bg:overlay fg:love"
+format = '[](fg:overlay)[$all_status$ahead_behind]($style)[](fg:overlay)'
 
 [fill]
 style = "fg:overlay"
