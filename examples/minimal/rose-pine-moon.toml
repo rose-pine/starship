@@ -23,7 +23,7 @@ style_user = "bg:overlay fg:iris"
 
 [directory]
 format = "[](fg:overlay)[ $path ]($style)[](fg:overlay)"
-style = "bg:overlay fg:iris"
+style = "bg:overlay fg:pine"
 truncation_length = 3
 truncation_symbol = "…/"
 
