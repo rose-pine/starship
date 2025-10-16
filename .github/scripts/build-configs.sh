@@ -12,7 +12,7 @@ mkdir -p "$OUT_DIR"
 lang_modules=(c elixir elm golang haskell java julia nodejs nim rust scala python)
 
 # Add prompts here
-prompt1="[󱞪](fg:iris) \\"
+prompt1="[󱞪](fg:THEME) \\"
 
 # palettes
 palettes=("rose-pine" "rose-pine-moon" "rose-pine-dawn")
@@ -45,13 +45,18 @@ while read -r cfg; do
 
   # build format_parts
   format_parts=()
-  for mod in "${modules[@]}"; do
+
+  for i in "${!modules[@]}"; do
+    mod="${modules[$i]}"
+    accent="${colours[$i]}"
+  
     if [ "$mod" = "languages" ]; then
       for lang in "${lang_modules[@]}"; do
         format_parts+=("\$${lang}")
       done
     elif [ "$mod" = "prompt1" ]; then
-      format_parts+=("$prompt1")
+      replaced="${prompt1//THEME/$accent}"
+      format_parts+=("$replaced")
     elif [ "$mod" = "newline" ]; then
       format_parts+=("\n")
     else

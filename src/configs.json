@@ -4,11 +4,13 @@
     "modules": [
       {"name": "username"},
       {"name": "directory", "colour": "pine"},
-      {"name": "git_branch"},
+      {"name": "git_branch", "colour": "foam"},
+      {"name": "git_status", "colour": "love"},
       {"name": "fill"},
-      {"name": "languages"},
-      {"name": "time"},
-      {"name": "newline"}
+      {"name": "languages", "colour": "pine"},
+      {"name": "time", "colour": "rose"},
+      {"name": "newline"},
+      {"name": "prompt1", "colour": "iris"}
     ]
   },
   {
@@ -16,18 +18,21 @@
     "modules": [
       {"name": "username"},
       {"name": "hostname"},
-      {"name": "directory"},
-      {"name": "git_branch"},
+      {"name": "directory", "colour": "pine"},
+      {"name": "git_branch", "colour": "foam"},
+      {"name": "git_status", "colour": "love"},
       {"name": "fill"},
-      {"name": "languages"},
-      {"name": "time"}
+      {"name": "languages", "colour": "pine"},
+      {"name": "time", "colour": "rose"},
+      {"name": "newline"},
+      {"name": "prompt1", "colour": "iris"}
     ]
   },
   {
     "name": "minimal",
     "modules": [
       {"name": "username"},
-      {"name": "directory"}
+      {"name": "directory", "colour": "pine"}
     ]
   }
 ]
