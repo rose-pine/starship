@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-$username\n$directory\n
+
 """
 palette = "rose-pine"
 

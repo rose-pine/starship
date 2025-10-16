@@ -27,7 +27,7 @@ while read -r cfg; do
   if [ -z "$name" ] || [ "$name" = "null" ]; then
     echo "⚠️ Skipping invalid config: $cfg" >&2
     continue
-  # fi
+  fi
 
   output="$OUT_DIR/$name"
   rm -rf "$output"
